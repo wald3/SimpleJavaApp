@@ -17,14 +17,14 @@ public class Main {
 
         try(BufferedReader br = new BufferedReader (new FileReader("input")))
         {
-            ArrayList<Worker> workers = new ArrayList<Worker>();
+            ArrayList<Worker> workers = new ArrayList<>();
             String[] buff;
             String str;
 
             while(br.ready()){
                 str = br.readLine();
                 buff = str.split("[+?\\x20]|[+?\\x3A]");
-                
+
                 workers.add(new Worker(buff));
             }
         }
