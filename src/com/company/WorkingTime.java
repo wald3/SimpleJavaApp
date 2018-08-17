@@ -14,5 +14,16 @@ public class WorkingTime {
         this.workTime = endTime.Subtract(startTime);
     }
 
+    public Time GetWorkTime(){
+        return this.workTime;
+    }
+
+    public Time GetStartTime(){
+        return this.startTime;
+    }
+
+    public Time GetEndTime(){
+        return this.endTime;
+    }
 
 }

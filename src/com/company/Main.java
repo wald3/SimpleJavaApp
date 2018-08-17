@@ -27,11 +27,33 @@ public class Main {
 
                 workers.add(new Worker(buff));
             }
+            CountWorkers(workers);
         }
         catch(IOException ex){
 
             System.out.println(ex.getMessage());
         }
+    }
+
+    public void CountWorkers(ArrayList<Worker> workers){
+        ArrayList<Worker> group = new ArrayList<>();
+        int MaxGroupSize = 0;
+        for (Worker w: workers) {
+            if (MaxGroupSize < group.size()){MaxGroupSize = group.size();}
+            group.clear();
+            group.add(w);
+            for (Worker ww: workers) {
+                if (w == ww){continue;}
+                if (ww.isInGroup(group)){
+                    group.add(ww);
+                }
+
+            }
+        }
+        System.out.println(MaxGroupSize);
+
 
     }
+
+
 }
