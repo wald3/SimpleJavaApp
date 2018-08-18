@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/com/company/Main.java" line="34" />
-    <bookmark url="file://$PROJECT_DIR$/src/com/company/Main.java" line="28" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/company/Main.java" line="35" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/company/Main.java" line="29" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bafc163-d364-4c30-add2-afe72d770333" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/WorkingTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/WorkingTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/WorkingTime.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,33 +22,34 @@
     <session id="-59870797">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="input" value="1" />
-          <entry key="java" value="3762" />
+          <entry key="input" value="11" />
+          <entry key="java" value="3867" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3762" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="3867" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="input" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -60,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="499">
+              <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Time.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="22">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding>
                 <element signature="e#409#410#0" expanded="true" />
                 <element signature="e#441#442#0" expanded="true" />
@@ -84,40 +84,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/WorkingTime.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-              <folding>
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="37">
+              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Worker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/input">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="159">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -140,11 +119,11 @@
         <option value="$PROJECT_DIR$/src/Time.java" />
         <option value="$PROJECT_DIR$/src/MyTime.java" />
         <option value="$PROJECT_DIR$/src/com/company/MyTime.java" />
-        <option value="$PROJECT_DIR$/input" />
-        <option value="$PROJECT_DIR$/src/com/company/WorkingTime.java" />
         <option value="$PROJECT_DIR$/src/com/company/Time.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Worker.java" />
+        <option value="$PROJECT_DIR$/input" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/WorkingTime.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Worker.java" />
       </list>
     </option>
   </component>
@@ -161,8 +140,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,10 +162,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534542073390" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534591487423" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -244,8 +223,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13046272" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13174807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -313,37 +293,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyTime.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/WorkingTime.java">
+    <entry file="file://$PROJECT_DIR$/input">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Time.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="method#Subtract#0;class#Time#0" />
-          </folding>
+        <state relative-caret-position="159">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="499">
+          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -352,19 +312,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="37">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/input">
+    <entry file="file://$PROJECT_DIR$/src/com/company/WorkingTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding>
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="method#Subtract#0;class#Time#0" />
+          </folding>
         </state>
       </provider>
     </entry>

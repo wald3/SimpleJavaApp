@@ -17,6 +17,7 @@ public class Main {
 
         try(BufferedReader br = new BufferedReader (new FileReader("input")))
         {
+
             ArrayList<Worker> workers = new ArrayList<>();
             String[] buff;
             String str;
@@ -37,11 +38,16 @@ public class Main {
 
     public void CountWorkers(ArrayList<Worker> workers){
         ArrayList<Worker> group = new ArrayList<>();
-        int MaxGroupSize = 0;
+        ArrayList<Worker> maxGroup = new ArrayList<>();
+        int maxGroupSize = 0;
         for (Worker w: workers) {
-            if (MaxGroupSize < group.size()){MaxGroupSize = group.size();}
+            if (maxGroupSize < group.size()){
+                maxGroupSize = group.size();
+                maxGroup = group;
+            }
             group.clear();
             group.add(w);
+
             for (Worker ww: workers) {
                 if (w == ww){continue;}
                 if (ww.isInGroup(group)){
@@ -50,7 +56,10 @@ public class Main {
 
             }
         }
-        System.out.println(MaxGroupSize);
+        System.out.println(maxGroupSize);
+        for (Worker w: maxGroup) {
+            System.out.println(w.GetID());
+        }
 
 
     }

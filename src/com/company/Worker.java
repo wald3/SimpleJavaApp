@@ -4,25 +4,44 @@ import java.util.ArrayList;
 
 public class Worker {
 
-    private WorkingTime workingTime;
-    private static int counter = 0;
+    private Time startTime;
+    private Time endTime;
+
+    private Time workTime;
+
+    private static int counter = 1;
     private int id;
 
     public Worker(String[] timeArr){
         this.id = counter++;
-        this.workingTime = new WorkingTime(timeArr);
+
+        this.startTime = new Time(timeArr[0], timeArr[1]);
+        this.endTime = new Time(timeArr[2], timeArr[3]);
+
+        this.workTime = endTime.Subtract(startTime);
+    }
+    public Time GetStartTime(){
+        return this.startTime;
+    }
+
+    public Time GetEndTime(){
+        return this.endTime;
+    }
+
+    public Time GetWorkTime(){
+        return this.workTime;
     }
 
     private boolean isMet(Worker w){
-        if (this.workingTime.GetStartTime().GetHours() > w.workingTime.GetEndTime().GetHours() ||
-            this.workingTime.GetEndTime().GetHours() < w.workingTime.GetStartTime().GetHours()){
+        if (this.GetStartTime().GetHours() > w.GetEndTime().GetHours() ||
+            this.GetEndTime().GetHours() < w.GetStartTime().GetHours()){
             return false;
         }
         else{ return true; }
     }
 
     private boolean isMoreHardworking(Worker w){
-        if (this.workingTime.GetWorkTime().GetHours() >  w.workingTime.GetWorkTime().GetHours()){
+        if (this.GetWorkTime().GetHours() >  w.GetWorkTime().GetHours()){
             // THIS is more hardworking than W
             return true;
         }
@@ -33,7 +52,7 @@ public class Worker {
         }
     }
 
-    public boolean isWorkTogether(Worker w){
+    private boolean isWorkTogether(Worker w){
         if (this.isMoreHardworking(w)){
             // if THIS is more hardworking
             return this.isMet(w);
