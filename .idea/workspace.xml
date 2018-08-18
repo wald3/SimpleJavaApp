@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/com/company/Main.java" line="35" />
-    <bookmark url="file://$PROJECT_DIR$/src/com/company/Main.java" line="29" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/company/Main.java" line="31" />
+    <bookmark url="file://$PROJECT_DIR$/src/com/company/Main.java" line="26" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bafc163-d364-4c30-add2-afe72d770333" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/com/company/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/com/company/WorkerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleJavaApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleJavaApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaApp/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleJavaApp/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaApp/com/company/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleJavaApp/com/company/Time.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaApp/com/company/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SimpleJavaApp/com/company/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SimpleJavaApp/com/company/WorkingTime.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/WorkingTime.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,84 +38,138 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="input" value="11" />
-          <entry key="java" value="3867" />
+          <entry key="input" value="18" />
+          <entry key="java" value="4603" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3867" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="JAVA" value="4603" />
+          <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="input" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="8" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Time.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-              <folding>
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="method#Subtract#0;class#Time#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Worker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="176">
+                  <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/com/company/Time.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="284">
+                  <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+                  <folding>
+                    <element signature="method#equals#0;class#Time#0" />
+                    <element signature="method#subtract#0;class#Time#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="252">
+                  <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#5877#5878#0" expanded="true" />
+                    <element signature="e#5913#5914#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/company/Worker.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="469">
+                  <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/input">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="265">
+                  <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Tests/com/company/TimeTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Tests/com/company/WorkerTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-14">
+                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+                  <folding>
+                    <element signature="e#697#698#0" expanded="true" />
+                    <element signature="e#744#745#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Subtract</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,11 +180,13 @@
         <option value="$PROJECT_DIR$/src/Time.java" />
         <option value="$PROJECT_DIR$/src/MyTime.java" />
         <option value="$PROJECT_DIR$/src/com/company/MyTime.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Time.java" />
+        <option value="$PROJECT_DIR$/src/com/company/WorkingTime.java" />
         <option value="$PROJECT_DIR$/input" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/WorkingTime.java" />
+        <option value="$PROJECT_DIR$/Tests/com/company/TimeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Time.java" />
         <option value="$PROJECT_DIR$/src/com/company/Worker.java" />
+        <option value="$PROJECT_DIR$/Tests/com/company/WorkerTest.java" />
       </list>
     </option>
   </component>
@@ -133,7 +196,9 @@
     <option name="width" value="1400" />
     <option name="height" value="860" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -147,17 +212,6 @@
               <item name="SimpleJavaApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="SimpleJavaApp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SimpleJavaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleJavaApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleJavaApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -167,8 +221,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534591487423" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534634432512" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,20 +251,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+  <component name="RunManager" selected="JUnit.TimeTest.subtractTest">
+    <configuration name="TimeTest.setHours" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimpleJavaApp" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TimeTest" />
+      <option name="METHOD_NAME" value="setHours" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeTest.subtractTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleJavaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TimeTest" />
+      <option name="METHOD_NAME" value="subtractTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerTest.getID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleJavaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.WorkerTest" />
+      <option name="METHOD_NAME" value="getID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerTest.getStartTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleJavaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.WorkerTest" />
+      <option name="METHOD_NAME" value="getStartTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerTest.getWorkTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleJavaApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.WorkerTest" />
+      <option name="METHOD_NAME" value="getWorkTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TimeTest.subtractTest" />
+      <item itemvalue="JUnit.TimeTest.setHours" />
+      <item itemvalue="JUnit.WorkerTest.getStartTime" />
+      <item itemvalue="JUnit.WorkerTest.getWorkTime" />
+      <item itemvalue="JUnit.WorkerTest.getID" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TimeTest.subtractTest" />
+        <item itemvalue="JUnit.WorkerTest.getID" />
+        <item itemvalue="JUnit.WorkerTest.getWorkTime" />
+        <item itemvalue="JUnit.WorkerTest.getStartTime" />
+        <item itemvalue="JUnit.TimeTest.setHours" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +362,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TimeTest_getHours - 2018.08.19 at 01h 56m 27s.xml">
+      <configuration name="TimeTest.getHours" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeTest_setHours - 2018.08.19 at 01h 58m 10s.xml">
+      <configuration name="TimeTest.setHours" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeTest_subtractTest - 2018.08.19 at 02h 10m 18s.xml">
+      <configuration name="TimeTest.subtractTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeTest_subtractTest - 2018.08.19 at 02h 16m 12s.xml">
+      <configuration name="TimeTest.subtractTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getStartTime - 2018.08.19 at 02h 16m 55s.xml">
+      <configuration name="WorkerTest.getStartTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getWorkTime - 2018.08.19 at 02h 17m 50s.xml">
+      <configuration name="WorkerTest.getWorkTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getID - 2018.08.19 at 02h 18m 39s.xml">
+      <configuration name="WorkerTest.getID" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getID - 2018.08.19 at 02h 19m 41s.xml">
+      <configuration name="WorkerTest.getID" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getID - 2018.08.19 at 02h 19m 49s.xml">
+      <configuration name="WorkerTest.getID" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WorkerTest_getID - 2018.08.19 at 02h 20m 03s.xml">
+      <configuration name="WorkerTest.getID" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -225,7 +407,7 @@
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13174807" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13174807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -234,7 +416,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286445" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39897698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -293,17 +475,63 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyTime.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/WorkingTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/input">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="265">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
+          <folding>
+            <element signature="e#5877#5878#0" expanded="true" />
+            <element signature="e#5913#5914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+          <folding>
+            <element signature="method#equals#0;class#Time#0" />
+            <element signature="method#subtract#0;class#Time#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        <state relative-caret-position="176">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/com/company/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -312,26 +540,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        <state relative-caret-position="469">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/WorkingTime.java">
+    <entry file="file://$PROJECT_DIR$/Tests/com/company/WorkerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Time.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="-14">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="method#Subtract#0;class#Time#0" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
           </folding>
         </state>
       </provider>

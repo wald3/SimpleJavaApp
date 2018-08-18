@@ -4,7 +4,6 @@ import java.io.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class Main {
@@ -17,7 +16,6 @@ public class Main {
 
         try(BufferedReader br = new BufferedReader (new FileReader("input")))
         {
-
             ArrayList<Worker> workers = new ArrayList<>();
             String[] buff;
             String str;
@@ -25,13 +23,11 @@ public class Main {
             while(br.ready()){
                 str = br.readLine();
                 buff = str.split("[+?\\x20]|[+?\\x3A]");
-
                 workers.add(new Worker(buff));
             }
             CountWorkers(workers);
         }
         catch(IOException ex){
-
             System.out.println(ex.getMessage());
         }
     }
@@ -53,16 +49,11 @@ public class Main {
                 if (ww.isInGroup(group)){
                     group.add(ww);
                 }
-
             }
         }
         System.out.println(maxGroupSize);
         for (Worker w: maxGroup) {
-            System.out.println(w.GetID());
+            System.out.print(w.getID() + " ");
         }
-
-
     }
-
-
 }

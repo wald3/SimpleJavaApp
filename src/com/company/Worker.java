@@ -18,30 +18,33 @@ public class Worker {
         this.startTime = new Time(timeArr[0], timeArr[1]);
         this.endTime = new Time(timeArr[2], timeArr[3]);
 
-        this.workTime = endTime.Subtract(startTime);
+        this.workTime = endTime.subtract(startTime);
     }
-    public Time GetStartTime(){
+    public Time getStartTime(){
         return this.startTime;
     }
 
-    public Time GetEndTime(){
+    public Time getEndTime(){
         return this.endTime;
     }
 
-    public Time GetWorkTime(){
+    public Time getWorkTime(){
         return this.workTime;
     }
 
     private boolean isMet(Worker w){
-        if (this.GetStartTime().GetHours() > w.GetEndTime().GetHours() ||
-            this.GetEndTime().GetHours() < w.GetStartTime().GetHours()){
-            return false;
-        }
-        else{ return true; }
+        if (this.getStartTime().getHours() > w.getEndTime().getHours() ||
+            this.getStartTime().getHours() == w.getEndTime().getHours() &&
+            this.getStartTime().getMinutes() > w.getEndTime().getMinutes() ||
+            this.getEndTime().getHours() < w.getStartTime().getHours() ||
+            this.getEndTime().getHours() == w.getStartTime().getHours() &&
+            this.getEndTime().getMinutes() < w.getStartTime().getMinutes())
+            { return false; }
+        else{ return true;  }
     }
 
     private boolean isMoreHardworking(Worker w){
-        if (this.GetWorkTime().GetHours() >  w.GetWorkTime().GetHours()){
+        if (this.getWorkTime().getHours() >  w.getWorkTime().getHours()){
             // THIS is more hardworking than W
             return true;
         }
@@ -71,7 +74,7 @@ public class Worker {
         return true;
     }
 
-    public int GetID(){
+    public int getID(){
         return this.id;
     }
 

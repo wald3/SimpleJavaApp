@@ -2,6 +2,7 @@ package com.company;
 
 public class Time {
 
+
     private int hours;
     private int minutes;
 
@@ -15,30 +16,42 @@ public class Time {
         this.minutes = m;
     }
 
-    public void SetHours(int h) {
+    public void setHours(int h) {
         this.hours = h;
     }
 
-    public void SetMinutes(int m) {
+    public void setMinutes(int m) {
         this.minutes = m;
     }
 
-    public int GetHours() {
+    public int getHours() {
         return this.hours;
     }
 
-    public int GetMinutes() {
+    public int getMinutes() {
         return this.minutes;
     }
 
-    public Time Subtract(Time d) {
-        Time result = new Time(this.GetHours() - d.GetHours(),
-                               this.GetMinutes() - d.GetMinutes());
-        if (result.GetHours() < 0) {
-            result.SetHours(0 - result.GetHours());
+    @Override
+    public boolean equals(Object other) {
+        if (other == null) return false;
+        if (other == this) return true;
+        if (!(other instanceof Time)) return false;
+        Time otherMyClass = (Time) other;
+        if (this.getHours() == ((Time) other).getHours() &&
+                this.getMinutes() == ((Time) other).getMinutes()) {
+            return true;
+        }else   return false;
+    }
+
+    public Time subtract(Time d) {
+        Time result = new Time(this.getHours() - d.getHours(),
+                               this.getMinutes() - d.getMinutes());
+        if (result.getHours() < 0) {
+            result.setHours(0 - result.getHours());
         }
-        if (result.GetMinutes() < 0) {
-            result.SetMinutes(0 - result.GetMinutes());
+        if (result.getMinutes() < 0) {
+            result.setMinutes(0 - result.getMinutes());
         }
         return result;
     }
