@@ -22,7 +22,9 @@ public class Main {
             while (br.ready()) {
                 str = br.readLine();
                 buff = str.split("[+?\\x20]|[+?\\x3A]");
-                workers.add(new Worker(buff));
+                if (IsValidString(buff)){
+                    workers.add(new Worker(buff));
+                }
             }
             CountWorkers(workers);
         } catch (IOException ex) {
@@ -30,7 +32,27 @@ public class Main {
         }
     }
 
-    public static boolean IsValidString(String s) {
+
+    public static boolean IsValidString(String[] arr){
+        if (arr.length != 4) return false;
+        else{
+            if (IsValidHour(arr[0]) && IsValidMinute(arr[1])
+            &&  IsValidHour(arr[2]) && IsValidMinute(arr[3]))
+                return true;
+            else return false;
+        }
+    }
+
+    public static boolean IsValidMinute(String s) {
+        if (s.matches("\\d{2}")) {
+            if (Integer.valueOf(s) <= 59 && Integer.valueOf(s) >= 00)
+                return true;
+            else return false;
+        }
+        else return false;
+    }
+
+    public static boolean IsValidHour(String s) {
         if (s.matches("\\d{2}")) {
             if (Integer.valueOf(s) <= 23 && Integer.valueOf(s) >= 00)
                 return true;

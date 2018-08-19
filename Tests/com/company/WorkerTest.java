@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class WorkerTest {
     Worker worker = new Worker(new
             String[]{"08","00","12","00"});
-    
+
     @Test
     public void getStartTime() {
         Time testTime = new Time(8, 0);

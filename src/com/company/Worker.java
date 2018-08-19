@@ -74,6 +74,7 @@ public class Worker {
         return true;
     }
 
+    // app test method
     public int getID(){
         return this.id;
     }
