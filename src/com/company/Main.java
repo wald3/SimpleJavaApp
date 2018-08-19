@@ -14,23 +14,32 @@ public class Main {
 
     public void MyMain() {
 
-        try(BufferedReader br = new BufferedReader (new FileReader("input")))
-        {
+        try (BufferedReader br = new BufferedReader(new FileReader("input"))) {
             ArrayList<Worker> workers = new ArrayList<>();
             String[] buff;
             String str;
 
-            while(br.ready()){
+            while (br.ready()) {
                 str = br.readLine();
                 buff = str.split("[+?\\x20]|[+?\\x3A]");
                 workers.add(new Worker(buff));
             }
             CountWorkers(workers);
-        }
-        catch(IOException ex){
+        } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
     }
+
+    public static boolean IsValidString(String s) {
+        if (s.matches("\\d{2}")) {
+            if (Integer.valueOf(s) <= 23 && Integer.valueOf(s) >= 00)
+                return true;
+            else return false;
+        }
+        else return false;
+    }
+
+
 
     public void CountWorkers(ArrayList<Worker> workers){
         ArrayList<Worker> group = new ArrayList<>();
@@ -52,8 +61,10 @@ public class Main {
             }
         }
         System.out.println(maxGroupSize);
+        /* for test
         for (Worker w: maxGroup) {
             System.out.print(w.getID() + " ");
         }
+        */
     }
 }

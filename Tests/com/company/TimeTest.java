@@ -35,14 +35,34 @@ public class TimeTest {
     @Test
     public void getHours() {
         int expected = 5;
-        Time testTime = new Time(0, 0);
+        Time testTime = new Time(5, 0);
         assertEquals(expected, testTime.getHours());
     }
 
     @Test
     public void getMinutes() {
         int expected = 5;
-        Time testTime = new Time(4, 4);
+        Time testTime = new Time(5, 0);
         assertEquals(expected, testTime.getHours());
+    }
+
+    @Test
+    public void equals1() {
+        Time testTime = new Time(0, 0);
+        assertEquals(true, testTime.equals(testTime));
+    }
+
+    @Test
+    public void equals2() {
+        Time testTime = new Time(0, 0);
+        Time fakeTime = new Time(2, 0);
+        assertEquals(false, testTime.equals(fakeTime));
+    }
+
+    @Test
+    public void equals3() {
+        Time testTime = new Time(3, 0);
+        Time trueTime = new Time(3, 0);
+        assertEquals(true, testTime.equals(trueTime));
     }
 }

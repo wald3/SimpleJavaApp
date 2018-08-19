@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 public class WorkerTest {
     Worker worker = new Worker(new
             String[]{"08","00","12","00"});
+    
     @Test
     public void getStartTime() {
         Time testTime = new Time(8, 0);
@@ -23,10 +24,5 @@ public class WorkerTest {
     public void getWorkTime() {
         Time testTime = new Time(4, 0);
         assertEquals(testTime, worker.getWorkTime());
-    }
-
-    @Test
-    public void getID() {
-        assertEquals(1, worker.getID());
     }
 }
